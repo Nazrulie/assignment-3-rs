@@ -20,3 +20,50 @@
 .company img {
     height: 20px;
 }
+
+.footer-box {
+    font-size: 15px;
+}
+
+.footer-icon {
+    margin-top: 0px;
+}
+
+.iconify p {
+    padding-left: 10px;
+}
+
+
+@media only screen and (max-width:688px) {
+    .companyes {
+        display: none;
+    }
+
+    .read-more {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .read-btn {
+        margin-top: 18px;
+    }
+
+    .course-box {
+        width: 400px;
+    }
+}
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .companyes {
+        display: none;
+    }
+
+    .read-more {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .read-btn {
+        margin-top: 18px;
+    }
+}
